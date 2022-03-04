@@ -1,0 +1,28 @@
+/* Description : For styling index.html file
+                 Need to name starting from "_" as it will compile from main.scss */
+
+
+
+#header{
+    .fixed{
+        align-items: center;
+        font-size:40px;
+        font-weight: bold;
+    }
+
+}
+
+    .table{
+        width: 100%;
+        
+    }
+    .myModal{
+        width:100%;
+    }
+    .border {
+        display: inline-block;
+        margin: 6px;
+      }
+    
+    
+     
