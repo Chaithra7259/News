@@ -19,9 +19,9 @@ Vercel
 
 ## Installation and Configuration
 To commence this project, I have installed various tools and technologies, The procedure of the same are given in sequence as below.
-1. VSCode IDE : Please follow the installation steps from "https://www.educative.io/edpresso/how-to-install-visual-studio-code-on-windows-os" link.
-2. NPM(node-v16.14.0)  : Please follow the installation steps from "https://phoenixnap.com/kb/install-node-js-npm-on-windows"
-3. Bootstrap 5.1.3 :
+Markup :* VSCode IDE : Please follow the installation steps from "https://www.educative.io/edpresso/how-to-install-visual-studio-code-on-windows-os" link.
+* NPM(node-v16.14.0)  : Please follow the installation steps from "https://phoenixnap.com/kb/install-node-js-npm-on-windows"
+* Bootstrap 5.1.3 :
       step 1: Open VSCode IDE
       step 2: Open Teminal window
       step 3: run command "npm i bootstrap@5.1.3" or "npm i bootstrap@latest"
