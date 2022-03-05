@@ -12,58 +12,163 @@
    <link rel="stylesheet" href="./css/main.css"> 
    <!--header-->
    <header id="header">
-       <div class="fixed">News Categories
+      <div ><img class="img-fluid offset-3"  src="img/news1.jpg" /></div>
+       <div class="text-center">Comprehensive uptodate news coverage, breaking news and information on the top stories, business, health, entertainment, politics and more aggregated from sources all over the world.
    </div>
     </header>
    <!--/header-->
    <main id="site-main">
-     <h3>Business</h3>
-     <div>
+   
+ <br>
+ <br>  
+<div class="container">
+ <div class="row > *  offset-2">
+   <div class="col-3">
+        
+   <h3>
+      <button type="button" class="btn  " id="button3" data-bs-toggle="modal" data-bs-target="#myModal3">
+         <img class="img-thumbnail hover-zoomout"  src="img/business.jpg" /><p>See more</p></button>
+    </h3>
+
+</div>
+ 
+     <div class="col-3">
         
       <h3>
-         <a class="btn" data-bs-toggle="collapse" href="#myModalH" id="button2" role="button" aria-expanded="false" aria-controls="myModalH">Health</a>
+         <button type="button" class="btn" id="button2" data-bs-toggle="modal" data-bs-target="#myModal2">
+            <div class="col">
+               <img class="img-thumbnail hover-zoomout" src="img/health.jpg" />
+            </div>
+            </button>
        </h3>
    
  </div>
-     <div>
         
-           <h3>
-              <a class="btn" data-bs-toggle="collapse" href="#myModal" id="button1" role="button" aria-expanded="false" aria-controls="myModal">Football</a>
-            </h3>
+      <div class="col-3 ">            
         
-      </div>
-
-       <!-- Health Layout -->
-    <div class="collapse multi-collapse" id="myModalH">
-      <h2 class="card-title">Health</h2>
-      <div class="card-body" id="Health"></div>
-   </div>
-      <!-- Football Layout -->
-    <div class="collapse multi-collapse" id="myModal">
-       <h2 class="card-title">Football</h2>
-       <div class="card-body" id="Foodball"></div>
+         <h3  >
+            <button type="button" class="btn" id="button1" data-bs-toggle="modal" data-bs-target="#myModal">
+               <img class="img-thumbnail hover-zoomout" src="img/football.jpg" /></button>
+          </h3>
+      
     </div>
-       
-          
-              
-          <!--         <table class="table">
-                <tr>
-                   <td colspan="2">
-                      <a href="#" class="webTitle" id="linkF1">Liverpool v Norwich: FA Cup fifth round live!</a>
-                   </td>
-                </tr>
-             <tr>
-                  <td>
-                     <img src"" alt="img" />
-
-                  </td>
-                  <td>
-                     description
-                  </td>
-               </tr> 
-              </table> -->
-            
+   </div>  
+</div>
+   
+</main>   
+         <!-- The Modal for Business -->
+  <div class="modal" id="myModal3">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <!--Modal header-->
+           <div class="modal-header">
+                <h2 class="modal-title">Business</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+           </div>
+          <div class="modal-body" id="Business" >
            
-   </main>
-   <script src="app.js"></script>
+       <!--       <div class="border border-dark border-round" >
+                     
+                <div class="row">
+                 <a href="${res.webUrl}" class="webTitle" id="linkF1">${res.webTitle}</a>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="card card-body">
+                         <p>img</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-body">
+                        <p>Description</p>
+                      </div>
+                    </div>
+                  </div>
+                    
+               </div>
+               <br>
+    -->
+          
+          </div>
+       </div>
+     </div>
+    </div>   
+      <!-- The Modal for Health -->
+  <div class="modal" id="myModal2">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <!--Modal header-->
+           <div class="modal-header">
+                <h2 class="modal-title">Helath</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+           </div>
+          <div class="modal-body" id="Health" >
+           
+       <!--       <div class="border border-dark border-round" >
+                     
+                <div class="row">
+                 <a href="${res.webUrl}" class="webTitle" id="linkF1">${res.webTitle}</a>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="card card-body">
+                         <p>img</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-body">
+                        <p>Description</p>
+                      </div>
+                    </div>
+                  </div>
+                    
+               </div>
+               <br>
+    -->
+          
+          </div>
+       </div>
+     </div>
+    </div>   
+     <!-- The Modal for Foot ball -->
+  <div class="modal" id="myModal">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <!--Modal header-->
+           <div class="modal-header">
+                <h2 class="modal-title">Football</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+           </div>
+          <div class="modal-body" id="Foodball" >
+           
+       <!--       <div class="border border-dark border-round" >
+                     
+                <div class="row">
+                 <a href="${res.webUrl}" class="webTitle" id="linkF1">${res.webTitle}</a>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="card card-body">
+                         <p>img</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-body">
+                        <p>Description</p>
+                      </div>
+                    </div>
+                  </div>
+                    
+               </div>
+               <br>
+    -->
+          
+          </div>
+       </div>
+     </div>
+    </div>   
+
+    <script src="business.js"></script>
+ <script src="app.js"></script>
+ <script src="health.js"></script>
 </body>

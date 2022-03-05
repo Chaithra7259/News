@@ -3,20 +3,20 @@
    Promise will either be fullfilled or rejected 
    */
 
-   document.getElementById('button1').addEventListener('click', getExternal);
+
+   document.getElementById('button3').addEventListener('click', getExternal);
    // Get external API data
    function getExternal(){
     
-     fetch('https://content.guardianapis.com/search?q=football&api-key=4f044cb8-731a-438e-8cdf-a8f087afca87').then(function(data){
+     fetch('https://content.guardianapis.com/search?api-key=4f044cb8-731a-438e-8cdf-a8f087afca87').then(function(data2){
        
-         //console.log(data);
-         return data.json();
-         debugger
-     }).then(function(completedata){
-         console.log("hai",completedata);
-        let output='';
-        for (let res of completedata.response.results){  
-          output +=` 
+         return data2.json();
+        
+     }).then(function(completedata2){
+        
+        let output2='';
+        for (let res of completedata2.response.results){  
+          output2 +=` 
            
           <div class="border border-dark rounded" >
                  
@@ -26,29 +26,27 @@
             <div class="row m-1 ">
               <div class="col-1">
                   
-                     <p><img class="img-thumbnail" src="img/F1.jpg" /></p>
+                     <p><img class="img-thumbnail" src="img/B1.jpg" /></p>
                  
                 </div>
+                
                 <div class="col">
-                  
-                    <p>The home of football in this website bringing you the latest football news,  exclusive interviews, transfer rumours, upcoming events and many more.</p>
+                 
+                    <p>Get the latest International Business and Finacial news from global markets and economies around the world. Live updates of the business developments globally.</p>
                   
                 </div>
               </div>
                 
            </div>
-          <br>
-
-
+           <br>
+   
+   
           
                   
                  `
         };
-        document.getElementById("Foodball").innerHTML=output;
+        document.getElementById("Business").innerHTML=output2;
          }).catch((err)=>{
            console.log(err);
          })
        }
-
-
-      
