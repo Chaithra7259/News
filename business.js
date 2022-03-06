@@ -8,7 +8,7 @@
    // Get external API data
    function getExternal(){
     
-     fetch('https://content.guardianapis.com/search?api-key=4f044cb8-731a-438e-8cdf-a8f087afca87').then(function(data2){
+     fetch('https://content.guardianapis.com/search?q=business&api-key=4f044cb8-731a-438e-8cdf-a8f087afca87').then(function(data2){
        
          return data2.json();
         
